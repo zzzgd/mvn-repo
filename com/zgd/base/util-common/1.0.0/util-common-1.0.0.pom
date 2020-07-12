@@ -20,12 +20,6 @@
 
     <dependencies>
 
-        <!--core-->
-        <dependency>
-            <groupId>com.zgd.base</groupId>
-            <artifactId>core-common</artifactId>
-            <version>1.0.0</version>
-        </dependency>
 
         <!--http-->
         <dependency>
@@ -73,6 +67,15 @@
             <groupId>redis.clients</groupId>
             <artifactId>jedis</artifactId>
         </dependency>
+        <!--json-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+        </dependency>
 
         <!--jsoup-->
         <dependency>
@@ -85,6 +88,29 @@
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
+        </dependency>
+
+        <!--工具包-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zgd.base</groupId>
+            <artifactId>log-common</artifactId>
+            <version>1.0.0</version>
         </dependency>
 
     </dependencies>
