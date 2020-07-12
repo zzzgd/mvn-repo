@@ -23,20 +23,34 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!--http-->
         <dependency>
-            <groupId>com.zgd.base</groupId>
-            <artifactId>core-common</artifactId>
-            <version>1.0.0</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-log4j12</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-            </exclusions>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+        </dependency>
+        <!--校验请求参数-->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>[6.1.0,)</version>
+        </dependency>
+
+        <!--json-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
         </dependency>
         <dependency>
             <groupId>com.zgd.base</groupId>
-            <artifactId>springboot-common</artifactId>
+            <artifactId>util-common</artifactId>
             <version>1.0.0</version>
         </dependency>
     </dependencies>
